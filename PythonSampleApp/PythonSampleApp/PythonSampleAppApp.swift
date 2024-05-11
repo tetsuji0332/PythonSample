@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import PythonKit
 
 @main
 struct PythonSampleAppApp: App {
@@ -13,6 +14,9 @@ struct PythonSampleAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    PythonLibrary.useLibrary(at: "/Users/matsushimatetsuji/.pyenv/versions/3.11.4/bin/python")
+                }
         }
     }
 }
