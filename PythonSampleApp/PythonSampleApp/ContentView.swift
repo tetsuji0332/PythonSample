@@ -6,16 +6,21 @@
 //
 
 import SwiftUI
+import PythonKit
 
 struct ContentView: View {
+    let jjj = PythonScriptManager()
+    @State var showResult: Bool = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Image("mainIcon")
+        Button(action: {
+            showResult.toggle()
+        }) {
+            Text("Run Python Script")
         }
-        .padding()
+        if showResult {
+            Text(String("\(jjj.helloPythonScript())"))
+        }
     }
 }
 
