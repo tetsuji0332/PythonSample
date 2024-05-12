@@ -14,7 +14,8 @@
 		BFEE13622BEA4FD400C30E73 /* AppDelgate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE13612BEA4FD400C30E73 /* AppDelgate.swift */; };
 		BFEE13652BEA527400C30E73 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = BFEE13642BEA527400C30E73 /* PythonKit */; };
 		BFEE13672BEA573400C30E73 /* PythonScript.py in Resources */ = {isa = PBXBuildFile; fileRef = BFEE13662BEA573400C30E73 /* PythonScript.py */; };
-		BFEE13692BEA57E900C30E73 /* PythonScriptManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE13682BEA57E900C30E73 /* PythonScriptManager.swift */; };
+		BFEE13692BEA57E900C30E73 /* PythonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE13682BEA57E900C30E73 /* PythonManager.swift */; };
+		BFEE13712BF06C8100C30E73 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE13702BF06C8100C30E73 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +27,8 @@
 		BFEE135B2BEA4F9200C30E73 /* PythonSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PythonSampleApp.entitlements; sourceTree = "<group>"; };
 		BFEE13612BEA4FD400C30E73 /* AppDelgate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelgate.swift; sourceTree = "<group>"; };
 		BFEE13662BEA573400C30E73 /* PythonScript.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = PythonScript.py; sourceTree = "<group>"; };
-		BFEE13682BEA57E900C30E73 /* PythonScriptManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonScriptManager.swift; sourceTree = "<group>"; };
+		BFEE13682BEA57E900C30E73 /* PythonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonManager.swift; sourceTree = "<group>"; };
+		BFEE13702BF06C8100C30E73 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +64,13 @@
 			children = (
 				BFEE13522BEA4F8E00C30E73 /* PythonSampleAppApp.swift */,
 				BFEE13542BEA4F8E00C30E73 /* ContentView.swift */,
-				BFEE13682BEA57E900C30E73 /* PythonScriptManager.swift */,
+				BFEE13682BEA57E900C30E73 /* PythonManager.swift */,
 				BFEE13562BEA4F9200C30E73 /* Assets.xcassets */,
 				BFEE135B2BEA4F9200C30E73 /* PythonSampleApp.entitlements */,
 				BFEE13582BEA4F9200C30E73 /* Preview Content */,
 				BFEE13612BEA4FD400C30E73 /* AppDelgate.swift */,
 				BFEE13662BEA573400C30E73 /* PythonScript.py */,
+				BFEE13702BF06C8100C30E73 /* ContentViewModel.swift */,
 			);
 			path = PythonSampleApp;
 			sourceTree = "<group>";
@@ -157,10 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFEE13692BEA57E900C30E73 /* PythonScriptManager.swift in Sources */,
+				BFEE13692BEA57E900C30E73 /* PythonManager.swift in Sources */,
 				BFEE13622BEA4FD400C30E73 /* AppDelgate.swift in Sources */,
 				BFEE13552BEA4F8E00C30E73 /* ContentView.swift in Sources */,
 				BFEE13532BEA4F8E00C30E73 /* PythonSampleAppApp.swift in Sources */,
+				BFEE13712BF06C8100C30E73 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
